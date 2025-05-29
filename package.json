@@ -1,0 +1,22 @@
+{
+  "name": "animan",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/boyra4483/animan#readme",
+  "bugs": {
+    "url": "https://github.com/boyra4483/animan/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyra4483/animan.git"
+  },
+  "license": "ISC",
+  "author": "boyra",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3"
+  }
+}
