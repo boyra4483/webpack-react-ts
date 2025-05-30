@@ -39,4 +39,11 @@ export default {
   resolve: {
     extensions: [".tsx", ".ts", ".js", ".scss", "..."],
   },
+  devtool: "inline-source-map",
+  devServer: {
+    static: "./dist",
+  },
+  stats: {
+    errorDetails: true,
+  },
 };
