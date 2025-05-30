@@ -1,5 +1,6 @@
 import path from "path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
+import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 
@@ -7,6 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default (env) => {
+  const isDevMode = env.mode === "development";
+
   return {
     mode: "development",
     entry: "./src/index.ts",
@@ -15,7 +18,10 @@ export default (env) => {
       filename: "index.[contenthash].js",
       clean: true,
     },
-    plugins: [new HtmlWebpackPlugin({ title: "animan" })],
+    plugins: [].concat(
+      [new HtmlWebpackPlugin({ title: "animan" })],
+      new MiniCssExtractPlugin()
+    ),
     module: {
       rules: [
         {
@@ -28,7 +34,11 @@ export default (env) => {
         },
         {
           test: /\.(scss|sass|css)$/i,
-          use: ["style-loader", "css-loader", "sass-loader"],
+          use: [
+            isDevMode ? "style-loader" : MiniCssExtractPlugin.loader,
+            "css-loader",
+            "sass-loader",
+          ],
         },
         {
           test: /\.tsx?$/,
