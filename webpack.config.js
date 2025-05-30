@@ -1,4 +1,5 @@
 import path from "path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 
@@ -13,4 +14,5 @@ export default {
     filename: "index.[contenthash].js",
     clean: true,
   },
+  plugins: [new HtmlWebpackPlugin({ title: "animan" })],
 };
