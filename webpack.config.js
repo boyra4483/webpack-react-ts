@@ -46,4 +46,9 @@ export default {
   stats: {
     errorDetails: true,
   },
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
+  },
 };
