@@ -21,7 +21,9 @@ export default (env) => {
     },
     plugins: [].concat(
       [new HtmlWebpackPlugin({ title: "animan" })],
-      new MiniCssExtractPlugin()
+      isDevMode
+        ? []
+        : new MiniCssExtractPlugin({ filename: "index-[contenthash].css" })
     ),
     module: {
       rules: [
