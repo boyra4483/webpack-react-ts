@@ -12,7 +12,7 @@ export default (env) => {
 
   return {
     mode: "development",
-    entry: "./src/index.ts",
+    entry: "./src/index.js",
     output: {
       path: path.resolve(__dirname, "dist"),
       filename: "index.[contenthash].js",
@@ -36,7 +36,22 @@ export default (env) => {
           test: /\.(scss|sass|css)$/i,
           use: [
             isDevMode ? "style-loader" : MiniCssExtractPlugin.loader,
-            "css-loader",
+            {
+              loader: "css-loader",
+              options: {
+                modules: {
+                  mode: "local",
+                  namedExport: false,
+                  exportLocalsConvention: "as-is",
+                  localIdentHashDigestLength: 10,
+                  localIdentName: `${
+                    isDevMode
+                      ? "[path][name]__[local]"
+                      : "[local]__[hash:base64]"
+                  }`,
+                },
+              },
+            },
             "sass-loader",
           ],
         },
