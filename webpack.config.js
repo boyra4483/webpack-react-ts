@@ -15,7 +15,8 @@ export default (env) => {
     entry: "./src/index.js",
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: "index.[contenthash].js",
+      filename: "index-[contenthash].js",
+      hashDigestLength: 10,
       clean: true,
     },
     plugins: [].concat(
