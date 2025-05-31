@@ -9,6 +9,15 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "sourceMap": true
-  }
+    "sourceMap": true,
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "customMatcher": "\\.((c|le|sa|sc)ss|styl)$"
+        }
+      }
+    ]
+  },
+  "include": ["src"]
 }
