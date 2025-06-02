@@ -66,7 +66,7 @@ export default (env) => {
       ],
     },
     resolve: {
-      extensions: [".tsx", ".ts", ".js", ".scss", "..."],
+      extensions: [".tsx", ".ts", ".js", "..."],
     },
     devtool: "inline-source-map",
     devServer: {
