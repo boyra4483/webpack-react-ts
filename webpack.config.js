@@ -12,10 +12,10 @@ export default (env) => {
 
   return {
     mode: "development",
-    entry: "./src/index.ts",
+    entry: "./src/index.tsx",
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: "index-[contenthash].js",
+      filename: "[name]-[contenthash].js",
       hashDigestLength: 10,
       clean: true,
     },
