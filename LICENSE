@@ -1,21 +1,27 @@
-MIT License
+Custom License based on MIT License
 
-Copyright (c) 2025 boyra4483
+Copyright (c) 2025 Bayram Gadzhiev (boyra4483)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, and modify the Software, including in commercial projects, under the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Attribution Required: You must retain the above copyright notice, this permission notice, and any other author attribution in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. No Selling: You may not sell, resell, or distribute the Software or any modified version of it, as a standalone product or as part of a package, for commercial gain.
+
+3. No Misrepresentation: You may not remove or alter any notices of authorship or disclaimers in the Software. You may not claim the Software or any modified version as your original work.
+
+4. Forking and Redistribution: Forking and redistribution of the Software on platforms like GitHub is permitted only if all of the following are strictly observed:
+   - The original license and all copyright and attribution notices remain intact and unmodified.
+   - The forked version is not sold or commercially exploited as a standalone product.
+   - Any redistribution (modified or unmodified) clearly credits the original author Bayram Gadzhiev (boyra4483).
+   - Removal or modification of license terms, author attribution, or copyright notices in forks is prohibited.
+
+5. No Trademark Use: You may not use the name Bayram Gadzhiev,"boyra4483" or any related trademarks to endorse or promote products derived from the Software without prior written permission.
+
+6.  Future License Changes: The author reserves the right to modify the license terms in future versions. Use of future versions indicates acceptance of the new terms. Previous versions remain under this license.
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. In no event shall the authors or copyright holders be liable for any claims, damages or other liability, whether in an action in contract, tort or otherwise, arising out of or in connection with the software or the use of or other dealings in the software.
+
+By using the Software, you agree to these terms.
