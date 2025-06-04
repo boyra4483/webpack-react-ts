@@ -1,7 +1,7 @@
 {
   "name": "create-webpack-react-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template for a React + Typescript project with CSS modules support using webpack ",
   "homepage": "https://github.com/boyra4483/webpack-react-ts#readme",
   "bugs": {
     "url": "https://github.com/boyra4483/webpack-react-ts/issues"
