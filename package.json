@@ -10,8 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/boyra4483/webpack-react-ts.git"
   },
-  "license": "ISC",
-  "author": "boyra",
+  "license": "MIT",
   "type": "module",
   "main": "index.js",
   "scripts": {
