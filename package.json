@@ -1,6 +1,9 @@
 {
   "name": "create-webpack-react-ts",
   "version": "1.0.0",
+  "bin": {
+    "create-webpack-react-ts": "./index.js"
+  },
   "description": "Template for a React + Typescript project with CSS modules support using webpack ",
   "homepage": "https://github.com/boyra4483/webpack-react-ts#readme",
   "bugs": {
@@ -39,7 +42,6 @@
     "webpack-dev-server": "^5.2.1"
   },
   "dependencies": {
-    "degit": "^2.8.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
