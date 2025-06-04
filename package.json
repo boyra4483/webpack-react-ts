@@ -1,14 +1,14 @@
 {
-  "name": "animan",
+  "name": "create-webpack-react-ts",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/boyra4483/animan#readme",
+  "homepage": "https://github.com/boyra4483/webpack-react-ts#readme",
   "bugs": {
-    "url": "https://github.com/boyra4483/animan/issues"
+    "url": "https://github.com/boyra4483/webpack-react-ts/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boyra4483/animan.git"
+    "url": "git+https://github.com/boyra4483/webpack-react-ts.git"
   },
   "license": "ISC",
   "author": "boyra",
