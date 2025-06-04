@@ -1,26 +1,7 @@
 {
-  "name": "create-webpack-react-ts",
+  "name": "my-app",
   "version": "1.0.0",
-  "bin": {
-    "create-webpack-react-ts": "./index.js"
-  },
-  "description": "Template for a React + Typescript project with CSS modules support using webpack ",
-  "homepage": "https://github.com/boyra4483/webpack-react-ts#readme",
-  "bugs": {
-    "url": "https://github.com/boyra4483/webpack-react-ts/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/boyra4483/webpack-react-ts.git"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "boyra",
-    "email": "b9892213@gmail.com",
-    "url": "https://github.com/boyra4483"
-  },
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "server": "webpack serve --open --env mode=development",
     "build": "webpack"
