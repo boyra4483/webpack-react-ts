@@ -11,7 +11,7 @@ export default (env) => {
   const isDevMode = env.mode === "development";
 
   return {
-    mode: "development",
+    mode: isDevMode ? "development" : "production",
     entry: "./src/index.tsx",
     output: {
       path: path.resolve(__dirname, "dist"),
