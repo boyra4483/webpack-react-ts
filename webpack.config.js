@@ -69,6 +69,9 @@ export default (env) => {
       ],
     },
     resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./src/*"),
+      },
       extensions: [".tsx", ".ts", ".js", "..."],
     },
     devtool: "inline-source-map",
