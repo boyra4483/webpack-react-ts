@@ -5,7 +5,7 @@
   "private": "true",
   "scripts": {
     "server": "webpack serve --open --env mode=development",
-    "build": "webpack"
+    "build": "webpack --env mode=production"
   },
   "devDependencies": {
     "@types/react": "^19.1.6",
